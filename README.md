@@ -19,6 +19,9 @@ The framework innovatively integrates **structured financial data** and **unstru
 ## 🏦 Dataset Description
 > ⚠️ **Data Sensitivity Statement**: This data is sourced from a Chinese commercial bank and has been anonymized in accordance with confidentiality agreements. Due to the proprietary nature of commercial data, only 100 sample rows are provided for academic reproduction. For the complete dataset, please apply via email.
 
+**Dataset Temporal Scope**: The data used in this study is from 2018, capturing consumer financial behaviors and credit outcomes within that timeframe.
+
+
 | File Path | Number of Rows | Content Description |
 |------------------------------|----------------|------------------------------------------|
 | `Data/Dataset_Samples_Tradition.xlsx` | 100 | Traditional structured financial features (age, income, credit limit, default status, etc.) |
@@ -35,7 +38,7 @@ The framework innovatively integrates **structured financial data** and **unstru
 
 ### Software Dependencies
 - Python 3.9 or higher
-- Dependent libraries:详见`requirements.txt` (install via `pip install -r requirements.txt`)
+- Dependent libraries: Listed in `requirements.txt` (install via `pip install -r requirements.txt`)
 - **Special Note**: Need to install PyTorch matching the CUDA version (refer to the [PyTorch Official Guide](https://pytorch.org/get-started/locally/))
 
 ### API Requirements
